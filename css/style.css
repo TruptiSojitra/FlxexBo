@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    padding: 5px 50px;
+}
+
+.header ul{
+    margin: 0px;
+    padding: 0px;
+    /* display: flex;     */
+    list-style-type: none;
+}
+.header li{
+    float: left;
+}
+.header li a{
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+.header li a.active{
+    background-color: orange;
+    color: white;
+}
+.header li a:hover:not(.active){
+    background-color: orange;
+    color: white;
+}
+.banner{
+    position: relative;
+    width: 100%;
+    height: 450px;
+    background-color: black;
+}
+.banner img{
+    width: 100%;
+    height: 100%;    
+    opacity: 0.5;
+}
+.absolute{
+    position: absolute;
+    top: 200px;
+    left: 450px;
+}
+.absolute h1{
+    color: white;
+    margin: 10px;
+    text-align: center;
+}
+.absolute p{
+    color: white;
+    /* margin: 10px; */
+}
+.content1{
+    width: 100%;
+    height: 200px;
+    background-color: orange;
+    color: white;
+    padding: 50px;
+}
+.content1 h1{
+    padding-bottom: 5px;
+}
+.content1 button{
+    float: right;
+    margin: 12px;
+    padding: 10px;
+    border: none;
+}
+.content2{
+    width: 100%;
+    height: 450px;
+    padding: 50px;
+}
+.content2 h1{
+    text-align: center;
+
+}
+.content2 p{
+    text-align: center;
+}
+.content2 .courses{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.course{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+.course i{
+    padding: 18px;
+    border: 2px gray solid;
+    border-radius: 30px;
+}
+.course i:hover{
+    color: white;
+    font-size: 20px;
+    border: none;
+    background-color: orange;
+}
+.course p{
+    padding-left: 0;
+}
+.content3{
+    width: 100%;
+    height: 400px;
+    padding: 50px;
+    background: #8080802b;
+}
+.content3 h1{    
+    text-align: center;
+    padding-bottom: 10px;
+}
+.content3 p{
+    padding: 5px;
+}
+.about{
+    display: block;
+}
+.about ul{
+    padding: 10px 40px;
+}
+.content3 button{
+    background-color: cornflowerblue;
+    color: white;
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+}
+
+.content3 img{
+    width: 30%;
+    height: 20%;
+    float:right;
+}
+.content4{
+    width: 100%;
+    height: 250px;
+    padding: 50px;
+}
+.content4 h1{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.client{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.client img{
+    width: 12%;
+    height: 5%;
+}
+.footer{
+    width: 100%;
+    height: 300px;
+    padding: 50px;
+    background-color: black;
+    color: white;
+}
+.details{
+    display: flex;
+}
+.detail{
+    width: 25%;
+    height: 60%;
+    padding: 0px 40px;
+}
+.detail h3{
+    padding-bottom: 10px;
+}
+.detail p{
+    color: gray;
+}
+#rights{
+    padding: 40px;
+    float: left;
+    text-transform: capitalize;
+}
+#social{
+    width: 250px;
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 40px 0px 0px;
+}
+#social a{
+    border: 1px solid #80808099;
+    border-radius: 7px;
+    padding: 10px;
+    color: white;
+}
+#social a:hover{
+    transform: scale(1.2);
+}
